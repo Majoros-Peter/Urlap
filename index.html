@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Űrlap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Szállítási cím módosítása</h1>
+    <hr>
+    <form>
+        <div>
+            <div id="sor" class="sor">
+                <label>Név <span>*</span></label><br>
+                <input type="text" required id="nev">
+            </div>
+            <div id="sor" class="sor">
+                <label>Telefonszám <span>*</span></label><br>
+                <select required id="telefonszam1">
+                    <option>36</option>
+                </select>
+                <input type="number" maxlength="9" required id="telefonszam2">
+            </div>
+        </div>
+        <div>
+            <div id="sor">
+                <label>Irányítószám <span>*</span></label><br>
+                <input type="number" required placeholder="4032" maxlength="4" id="iranyitoszam">
+            </div>
+            <div id="sor">
+                <label>Város <span>*</span></label><br>
+                <select required id="varos">
+                    <option>Debrecen</option>
+                    <option>Győr</option>
+                    <option>Nyíregyháza</option>
+                    <option>Budapest</option>
+                    <option>Miskolc</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div id="sor">
+                <label>Ország <span>*</span></label><br>
+                <select required id="orszag">
+                    <option>Magyarország</option><!--Több ország majd a későbbi verzióban lesz elérhető.-->
+                </select>
+            </div>
+            <div id="sor">
+                <label>Cím <span>*</span></label><br>
+                <input type="text" required id="cim">
+            </div>
+        </div>
+        <div>
+            <div>
+            <input type="submit" value="Mentés" required id="submit">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

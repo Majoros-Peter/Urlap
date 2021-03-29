@@ -1,0 +1,74 @@
+hr
+{
+    border-top: 1px dotted;
+    margin-bottom: 20px;
+}
+
+span
+{
+    color: red
+}
+
+#sor
+{
+    position: relative;
+    display: inline-block;
+}
+
+.sor input
+{
+    border: darkred ridge 1px;
+}
+
+#nev
+{
+    height: 25px;
+    width: 200px;
+}
+
+#telefonszam1
+{
+    height: 30px;
+    width: 75px;
+}
+
+#telefonszam2
+{
+    height: 25px;
+    width: 150px;
+}
+
+#iranyitoszam
+{
+    height: 25px;
+    width: 150px;
+}
+
+#varos
+{
+    height: 30px;
+    width: 285px;
+}
+
+#orszag
+{
+    height: 30px;
+    width: 155px;
+}
+
+#cim
+{
+    height: 25px;
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+#submit
+{
+    background-color: rgb(50, 215, 50);
+    height: 30px;
+    width: 450px;
+    color: white;
+    font-weight: bolder;
+    border: none;
+}
